@@ -1,0 +1,20 @@
+{
+  "name": "test_automation",
+  "version": "1.0.0",
+  "description": "Test Automation Framework",
+  "main": "index.js",
+  "author": "Ewa Forman",
+  "license": "MIT",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.25.4",
+    "@wdio/cli": "^7.25.4",
+    "@wdio/cucumber-framework": "^7.25.4",
+    "@wdio/local-runner": "^7.25.4",
+    "@wdio/spec-reporter": "^7.25.4",
+    "chromedriver": "^120.0.6",
+    "wdio-chromedriver-service": "^8.0.0"
+  },
+  "scripts": {
+    "test": "wdio run wdio.conf.js"
+  }
+}
